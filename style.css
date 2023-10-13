@@ -1,17 +1,39 @@
-:root{
-  --Royal-blue:#5956E9;
+:root {
+  --Royal-blue: #5956E9;
 }
 
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   border: 0;
-  box-sizing:border-box;
+  box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  text-decoration: none;
 }
 
-header{
-  background: url(./assets/Background\ Image.png) cover/center;
+html {
+  height: 100vh;
+  font-size: 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header, .background_blue {
+  background: url(./assets/background/Background\ Image.png);
 }
 
 
+header, section {
+  height: auto;
+  width: 100vw;
+  padding: 3em 17.5em;
+}
+
+.website-contacts{
+  display: flex;
+  color: white;
+  gap:18px;
+}
